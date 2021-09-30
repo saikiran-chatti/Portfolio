@@ -1,15 +1,48 @@
 .blueGradientTop {
-    
+    background: linear-gradient(180deg, #D0FFFF 0%, rgba(250, 250, 250, 0) 100%);
+    width: 100%;
+    height: 55vh;
+    display: flex;
+    flex-direction: row;
+    padding: 2% 100px 0px 100px;
+    justify-content: space-between;
 }
 
-.onlineStatus{
+.titleblock {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    justify-content: space-around;
+    gap: 28px;
+}
 
+.headerTitle {
+    margin: 0px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.onlineStatus {
+    background-color: #AEFFFF;
+    display: flex;
+    flex-direction: row;
+    padding: 6px 14px;
+    width: 130px;
+    justify-content: space-around;
+    align-items: center;
+    height: 30px;
+    border-radius: 180px;
 }
 
 .onlineStatusImage {
-
+    width: 10px;
+    height: 10px;
 }
 
 .onlineStatusValue {
-
+    line-height: 18px;
+    color: #2F80ED;
 }
