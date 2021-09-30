@@ -10,12 +10,50 @@ html {
 }
 
 :root {
+    --header-height: 3rem;
+}
+
+
+:root{
+    --big-font-size: 1.5rem;
+    --h2-font-size: 1.25rem;
+    --header-font-size: 1rem;
+    --normal-font-size: 0.6rem;
+    --name-font-size: 0.625rem;
+    --location-font-size: 0.575rem;
+    --projects-font-size: 0.625rem;
+  }
+
+  @media screen and (min-width: 768px){
+    :root{
+      --big-font-size: 3.2rem;
+      --h2-font-size: 2rem;
+      --normal-font-size: 1.25rem;
+      --header-font-size: 1.25rem;
+      --name-font-size: 1rem;
+      --location-font-size: 0.875rem;
+      --projects-font-size: 0.875rem;
+    }
+  }
+  
+
+:root {
     --mb-1: 0.5rem;
     --mb-2: 1rem;
     --mb-3: 1.5rem;
     --mb-4: 2rem;
     --mb-5: 2.5rem;
     --mb-6: 3rem;
+    --mb-7: 3.5rem;
+}
+
+.poppins-normal-14 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: var(--projects-font-size);
+    margin: 0px;
+    padding: 0px;
 }
 
 .poppins-normal-12 {
@@ -25,4 +63,76 @@ html {
     font-size: 12px;
     margin: 0px;
     padding: 0px;
+}
+  
+
+.poppins-normal-15 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.poppins-normal-18 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.poppins-bold-14{
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: var(--location-font-size);
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.poppins-bold-16{
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: var(--name-font-size);
+    margin: 0px;
+    padding: 0px;
+}
+
+.poppins-bold-24{
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 24px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.poppins-bold-48 {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: var(--big-font-size);
+    margin: 0px;
+    padding: 0px;
+}
+
+.color-grey {
+    color: #5D87A8;
+}
+
+.color-blackShade {
+    color: #25323D;
+}
+
+.color-gray50 {
+    color: #859FB4
+}
+
+.bold {
+    font-weight: 600;
+}
+
+.blue {
+    color: #2F80ED;
 }

@@ -1,0 +1,67 @@
+.personCard {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 55%;
+}
+
+.portifolio_card {
+    width: 247px;
+    height: 214px;
+    height: auto;
+    background-color: white;
+    box-shadow: 0px 40px 30px rgba(25, 25, 46, 0.04);
+    border-radius: 13px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.imageCover {
+    width: 84px;
+    height: 84px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+.name-location {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2px;
+}
+
+.title ,.location{
+    width: auto;
+    text-align: center;
+}
+
+
+@media screen and (max-width: 700px){
+    .personCard {
+      width: 100%;
+    }
+
+    .portifolio_card {
+        width: 164px;
+    height: 142px;
+    }
+
+    .imageCover {
+        width: 62px;
+        height: 62px;
+    }
+
+    .title {
+        font-size: var(--name-font-size);
+    }
+    
+    .location {
+        font-size: var(--location-font-size);
+    }
+    
+    
+}

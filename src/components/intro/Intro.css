@@ -1,0 +1,36 @@
+.intro {
+    display: flex;
+    flex-direction: column;
+    width: 42%;
+}
+
+.jayanth {
+    width: fit-content;
+}
+
+.intro_para {
+    margin-top: var(--mb-3);
+    color: #5D87A8;
+}
+
+.currentcompany_email {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: var(--mb-3);
+    gap:1rem;
+
+}
+
+
+@media screen and (max-width: 700px) {
+    .intro {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 1170px) {
+    .currentcompany_email {
+        flex-direction: row;
+    }
+}
