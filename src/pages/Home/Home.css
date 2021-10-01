@@ -4,7 +4,7 @@
     height: 55vh;
 }
 .portifolioContainer {
-  margin: var(--mb-7) var(--mb-7) 0px var(--mb-7);
+  margin: 80px 6.6% 0px 6.6%;
   display: flex;
   flex-flow: row; 
 }

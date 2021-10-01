@@ -1,8 +1,7 @@
-
 .header {
     display: flex;
     flex-direction: row;
-    padding: var(--mb-3) var(--mb-6) 0 var(--mb-6);
+    padding: 50px 6.6% 0 6.6%;
     justify-content: space-between;
 }
 
@@ -49,25 +48,29 @@
     color: #2F80ED;
 }
 
+.socialIcons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
 @media screen and (max-width: 700px) {
     .header {
-    padding: var(--mb-2) var(--mb-4) 0 var(--mb-4);
+        padding: var(--mb-2) var(--mb-4) 0 var(--mb-4);
     }
-
     .onlineStatus {
         display: none;
     }
-
     .onlyLogo {
         display: block;
         height: 12px;
         width: 12px;
     }
-
     .titleblock {
         gap: 8px;
     }
-
     .socialIcons {
         display: none;
     }

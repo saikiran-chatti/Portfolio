@@ -25,7 +25,7 @@
     object-fit: cover;
     margin-left: auto;
     margin-right: auto;
-  }
+}
 
 .name-location {
     display: flex;
@@ -34,34 +34,27 @@
     gap: 2px;
 }
 
-.title ,.location{
+.title, .location {
     width: auto;
     text-align: center;
 }
 
-
-@media screen and (max-width: 700px){
+@media screen and (max-width: 700px) {
     .personCard {
-      width: 100%;
+        width: 100%;        
     }
-
     .portifolio_card {
         width: 164px;
-    height: 142px;
+        height: 142px;
     }
-
     .imageCover {
         width: 62px;
         height: 62px;
     }
-
     .title {
         font-size: var(--name-font-size);
     }
-    
     .location {
         font-size: var(--location-font-size);
     }
-    
-    
 }

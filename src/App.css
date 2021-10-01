@@ -13,8 +13,7 @@ html {
     --header-height: 3rem;
 }
 
-
-:root{
+:root {
     --big-font-size: 1.5rem;
     --h2-font-size: 1.25rem;
     --header-font-size: 1rem;
@@ -22,20 +21,19 @@ html {
     --name-font-size: 0.625rem;
     --location-font-size: 0.575rem;
     --projects-font-size: 0.625rem;
-  }
+}
 
-  @media screen and (min-width: 768px){
-    :root{
-      --big-font-size: 3.2rem;
-      --h2-font-size: 2rem;
-      --normal-font-size: 1.25rem;
-      --header-font-size: 1.25rem;
-      --name-font-size: 1rem;
-      --location-font-size: 0.875rem;
-      --projects-font-size: 0.875rem;
+@media screen and (min-width: 768px) {
+    :root {
+        --big-font-size: 3.2rem;
+        --h2-font-size: 2rem;
+        --normal-font-size: 1.25rem;
+        --header-font-size: 1.25rem;
+        --name-font-size: 1rem;
+        --location-font-size: 0.875rem;
+        --projects-font-size: 0.875rem;
     }
-  }
-  
+}
 
 :root {
     --mb-1: 0.5rem;
@@ -64,7 +62,6 @@ html {
     margin: 0px;
     padding: 0px;
 }
-  
 
 .poppins-normal-15 {
     font-family: 'Poppins';
@@ -84,7 +81,7 @@ html {
     padding: 0px;
 }
 
-.poppins-bold-14{
+.poppins-bold-14 {
     font-family: 'Poppins';
     font-weight: 600;
     font-size: var(--location-font-size);
@@ -92,8 +89,7 @@ html {
     padding: 0px;
 }
 
-
-.poppins-bold-16{
+.poppins-bold-16 {
     font-family: 'Poppins';
     font-weight: 600;
     font-size: var(--name-font-size);
@@ -101,7 +97,7 @@ html {
     padding: 0px;
 }
 
-.poppins-bold-24{
+.poppins-bold-24 {
     font-family: 'Poppins';
     font-weight: 600;
     font-size: 24px;
@@ -121,6 +117,10 @@ html {
     color: #5D87A8;
 }
 
+.color-blue {
+    color: #40AAFF;
+}
+
 .color-blackShade {
     color: #25323D;
 }
@@ -129,10 +129,46 @@ html {
     color: #859FB4
 }
 
+.color-white {
+    color: white;
+}
+
+.color-darkBlackShade {
+    color: #19192E;
+}
+
 .bold {
     font-weight: 600;
 }
 
 .blue {
     color: #2F80ED;
+}
+
+/* Scrollbar */
+
+::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+
+::-webkit-scrollbar-track {
+    background: #fff;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #c0c0c0;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+::-webkit-scrollbar-thumb:horizontal {
+    background: #c0c0c0;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:horizontal:hover {
+    background: #555;
 }

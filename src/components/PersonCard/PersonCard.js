@@ -6,7 +6,7 @@ const PersonCard = () => {
     return (
         <div className="personCard">
             <div className="portifolio_card">
-                <img src={FacePhoto} className="imageCover"/>
+                <img src={FacePhoto} alt="me" className="imageCover" />
                 <div className="name-location">
                     <p className="poppins-bold-16 title color-blackShade">
                         Jayanth Saikiran
@@ -16,7 +16,7 @@ const PersonCard = () => {
                     </p>
                 </div>
             </div>
-           
+
         </div>
     )
 }

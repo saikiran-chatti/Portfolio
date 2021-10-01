@@ -3,6 +3,8 @@ import './Home.css'
 import Header from '../../components/Header/Header'
 import Intro from '../../components/intro/Intro'
 import PersonCard from '../../components/PersonCard/PersonCard'
+import Projects from '../../components/Projects/Projects'
+import Footer from '../../components/Footer/Footer'
 
 const Home = () => {
     return (
@@ -13,7 +15,8 @@ const Home = () => {
                     <Intro />
                     <PersonCard />
                 </div>
-                
+                <Projects />
+                <Footer />
             </div>
         </div>
     )
