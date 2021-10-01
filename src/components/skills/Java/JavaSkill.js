@@ -4,9 +4,9 @@ import Java from '../../../assets/images/java.svg'
 
 const JavaSkill = () => {
     return (
-        <div className="skill">
-            <img src={Java} />
-            <span>Figma</span>
+        <div className="javaSkill">
+            <img src={Java} alt="Java" className="javaImage" />
+            <p className="poppins-normal-16 color-grey javaName">Java</p>
         </div>
     )
 }

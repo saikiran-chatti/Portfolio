@@ -1,0 +1,31 @@
+.figmaSkill {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    gap: 10px;
+    width: 109px;
+    height: 56px;
+    box-shadow: 0px 40px 30px rgba(25, 25, 46, 0.04);
+    border-radius: 16px;
+    top: 50%;
+    left: -120px;
+}
+
+@media screen and (max-width: 700px) {
+    .figmaSkill {
+        width: 64px;
+        height: 31px;
+        left: -68px;
+        border-radius: 8px;
+    }
+    .figmaName {
+        font-size: 10px;
+    }
+    .figmaImage {
+        width: 9px;
+        height: 13px;
+    }
+}

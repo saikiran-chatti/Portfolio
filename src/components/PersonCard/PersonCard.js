@@ -1,6 +1,11 @@
 import React from 'react'
 import FacePhoto from '../../assets/images/face-photo.png'
+import JavaSkill from '../skills/Java/JavaSkill'
+import FigmaSkill from '../skills/Figma/FigmaSkill'
 import './PersonCard.css'
+import ReactSkill from '../skills/React/ReactSkill'
+import AndroidSkill from '../skills/Android/AndroidSkill'
+import NodejsSkill from '../skills/Nodejs/NodejsSkill'
 
 const PersonCard = () => {
     return (
@@ -15,6 +20,11 @@ const PersonCard = () => {
                         Hyderabad
                     </p>
                 </div>
+                <JavaSkill />
+                <FigmaSkill />
+                <ReactSkill />
+                <AndroidSkill />
+                <NodejsSkill />
             </div>
 
         </div>

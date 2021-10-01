@@ -1,6 +1,32 @@
-.skill {
+.javaSkill {
+    position: absolute;
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 10px;
+    width: 109px;
+    height: 56px;
+    box-shadow: 0px 40px 30px rgba(25, 25, 46, 0.04);
+    border-radius: 16px;
+    background-color: white;
+    right: -90px;
+    top: 50%;
+}
+
+@media screen and (max-width: 700px) {
+    .javaSkill {
+        width: 64px;
+        height: 31px;
+        border-radius: 8px;
+        right: -40px;
+    }
+    .javaName {
+        font-size: 10px;
+        font-weight: 400;
+    }
+    .javaImage {
+        width: 9px;
+        height: 13px;
+    }
 }

@@ -26,7 +26,7 @@ const Projects = () => {
                         <img src={AndroidIcon} alt="android" width="28px" height="28px" />
                     </div>
                 </div>
-                <div className="projectCard opacity">
+                <div className="projectCard opacity relativeCard">
                     <div className="comingsoon poppins-normal-12 color-white">
                         In progress
                     </div>

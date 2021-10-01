@@ -16,6 +16,7 @@
     flex-direction: column;
     justify-content: center;
     gap: 1rem;
+    position: relative;
 }
 
 .imageCover {
@@ -41,7 +42,7 @@
 
 @media screen and (max-width: 700px) {
     .personCard {
-        width: 100%;        
+        width: 100%;
     }
     .portifolio_card {
         width: 164px;

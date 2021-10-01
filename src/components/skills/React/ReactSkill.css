@@ -1,0 +1,25 @@
+.reactSkill {
+    width: 55px;
+    height: 55px;
+    background: rgba(40, 44, 52, 0.84);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 10px;
+    left: -30px;
+}
+
+@media screen and (max-width: 700px) {
+    .reactSkill {
+        width: 32px;
+        height: 32px;
+        top: 7px;
+        left: -16px;
+    }
+    .reactSkill img {
+        width: 26px;
+        height: 19px;
+    }
+}

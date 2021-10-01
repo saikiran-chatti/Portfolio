@@ -1,0 +1,25 @@
+.nodejsSkill {
+    height: 55px;
+    width: 55px;
+    background: #E5F7E4;
+    display: flex;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: -30px;
+    left: 15px;
+}
+
+@media screen and (max-width: 700px) {
+    .nodejsSkill {
+        width: 32px;
+        height: 32px;
+        bottom: -16px;
+        left: 15px;
+    }
+    .nodejsSkill img {
+        width: 13.3px;
+        height: 15.1px;
+    }
+}
