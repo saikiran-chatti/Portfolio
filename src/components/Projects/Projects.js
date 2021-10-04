@@ -18,7 +18,9 @@ const Projects = () => {
                         <img src={AndroidIcon} alt="android" width="28px" height="28px" />
                     </div>
                 </div>
-                <div className="projectCard">
+                <div className="projectCard" onClick={() => window.open("https://play.google.com/store/apps/details?id=com.gfeed.sudhaseshu.gitamfeed", "_blank")}>
+
+                  >
                     <p className="color-blue projectTitle">Gitam Feed</p>
                     <p className="color-black projectDesc">College feed and community</p>
                     <p className="color-grey projectDomain">Android Application</p>
