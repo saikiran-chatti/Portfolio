@@ -1,5 +1,5 @@
 import React from 'react'
-import FacePhoto from '../../assets/images/face-photo.png'
+import Close from '../../assets/images/close.jpg'
 import JavaSkill from '../skills/Java/JavaSkill'
 import FigmaSkill from '../skills/Figma/FigmaSkill'
 import './PersonCard.css'
@@ -11,7 +11,7 @@ const PersonCard = () => {
     return (
         <div className="personCard">
             <div className="portifolio_card">
-                <img src={FacePhoto} alt="me" className="imageCover" />
+                <img src={Close} alt="me" className="imageCover" />
                 <div className="name-location">
                     <p className="poppins-bold-16 title color-blackShade">
                         Jayanth Saikiran

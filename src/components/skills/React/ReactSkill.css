@@ -12,9 +12,19 @@
 }
 
 @media screen and (max-width: 700px) {
-    .reactSkill {
+    /* .reactSkill {
         width: 32px;
         height: 32px;
+        top: 7px;
+        left: -16px;
+    }
+    .reactSkill img {
+        width: 26px;
+        height: 19px;
+    } */
+    .reactSkill {
+        width: 36px;
+        height: 36px;
         top: 7px;
         left: -16px;
     }

@@ -17,7 +17,7 @@ const Header = () => {
             </div>
             <div className="socialIcons">
                 <img src={twitter} onClick={() => window.open("https://twitter.com/jayanthsaikiran", "_blank")} alt="twitter" width="20px" height="20px" />
-                <img src={linkedIn} onClick={() => window.open("https://instagram.com/jayanthsaikiran", "_blank")} alt="linkedIn" width="20px" height="20px" />
+                <img src={linkedIn} onClick={() => window.open("https://www.linkedin.com/in/jayanthsaikiran/", "_blank")} alt="linkedIn" width="20px" height="20px" />
             </div>
         </header>
     )

@@ -10,7 +10,7 @@ const Intro = () => {
 
             <div className="currentcompany_email">
                 <p className="poppins-normal-15 color-grey">
-                    I’m looking for new opportunities <br /> I am currently working at <span className="bold blue">ValueLabs</span></p>
+                    I’m looking for new opportunities <br /> I am currently working as a <span className="bold blue">WebDeveloper</span></p>
                 <div>
                     <p className="poppins-normal-15 color-grey">Email</p>
                     <p className="poppins-normal-15 color-grey bold blue">jayanthsaikiran@gmail.com</p>

@@ -12,6 +12,7 @@
 }
 
 .projectCard {
+    cursor: pointer;
     width: 330px;
     height: 209px;
     border-radius: 6px;
@@ -20,12 +21,21 @@
 }
 
 .projectDesc {
-    margin-top: 20px;
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 16px;
+    margin: 20px 0px 0px 0px;
     max-width: 150px;
+    padding: 0px;
 }
 
 .projectDomain {
-    margin-top: 8px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    margin: 8px 0px 0px 0px;
+    padding: 0px;
 }
 
 .domainIcons {
@@ -36,8 +46,8 @@
 }
 
 .comingsoon {
-    /* opacity: 1;
-    z-index: 99; */
+    opacity: 1;
+    z-index: 99;
     background-color: #40AAFF;
     width: 96px;
     height: 30px;
@@ -48,10 +58,19 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-}
+}   
 
 .relativeCard {
     position: relative;
+}
+
+.projectTitle {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    margin: 0px;
+    padding: 0px;
 }
 
 @media only screen and (max-width: 800px) {
