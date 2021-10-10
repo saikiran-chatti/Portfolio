@@ -8,8 +8,12 @@ const Footer = () => {
         <footer className="footer">
             <p className="poppins-normal-14 bold color-grey footerEmail">jayanthsaikiran@gmail.com</p>
             <div className="footerSocialIcons">
-                <img src={twitter} onClick={() => window.open("https://twitter.com/jayanthsaikiran", "_blank")} alt="twitter" width="20px" height="20px" />
-                <img src={linkedIn} onClick={() => window.open("https://www.linkedin.com/in/jayanthsaikiran/", "_blank")} alt="linkedIn" width="20px" height="20px" />
+            <a href={() => window.open("https://twitter.com/jayanthsaikiran", "_blank")}>
+                <img src={twitter} alt="twitter" width="20px" height="20px" />
+            </a>
+            <a href={() => window.open("https://www.linkedin.com/in/jayanthsaikiran/", "_blank")}>
+                <img src={linkedIn}  alt="linkedIn" width="20px" height="20px" />
+            </a>
             </div>
         </footer>
     )

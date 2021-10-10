@@ -15,6 +15,8 @@
 }
 
 .headerTitle {
+    list-style: none;
+    text-decoration: none;
     margin: 0px;
     font-family: 'Poppins';
     font-style: normal;

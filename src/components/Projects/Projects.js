@@ -9,7 +9,8 @@ const Projects = () => {
         <div className="projectsContainer">
             <p className="poppins-normal-15 color-grey">👇 My projects</p>
             <div className="projects">
-                <div className="projectCard" onClick={() => window.open("https://www.linkedin.com/feed/update/urn:li:activity:6840869073828630528/", "_blank")}>
+                <a href="https://www.linkedin.com/feed/update/urn:li:activity:6840869073828630528/" target="_blank">
+                <div className="projectCard">
                     <p className="color-blue projectTitle">No Wires</p>
                     <p className=" color-black projectDesc">Access phone files from laptop</p>
                     <p className="color-grey projectDomain">Web & Android app</p>
@@ -18,9 +19,9 @@ const Projects = () => {
                         <img src={AndroidIcon} alt="android" width="28px" height="28px" />
                     </div>
                 </div>
-                <div className="projectCard" onClick={() => window.open("https://play.google.com/store/apps/details?id=com.gfeed.sudhaseshu.gitamfeed", "_blank")}>
-
-
+                </a>
+                <a href="https://play.google.com/store/apps/details?id=com.gfeed.sudhaseshu.gitamfeed" target="_blank">
+                <div className="projectCard">
                     <p className="color-blue projectTitle">Gitam Feed</p>
                     <p className="color-black projectDesc">College feed and community</p>
                     <p className="color-grey projectDomain">Android Application</p>
@@ -28,6 +29,7 @@ const Projects = () => {
                         <img src={AndroidIcon} alt="android" width="28px" height="28px" />
                     </div>
                 </div>
+                </a>
                 <div className="projectCard relativeCard">
                     <div className="comingsoon poppins-normal-12 color-white">
                         In progress

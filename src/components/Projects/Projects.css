@@ -11,6 +11,11 @@
     gap: 30px;
 }
 
+a {
+    list-style: none;
+    text-decoration: none;
+}
+
 .projectCard {
     cursor: pointer;
     width: 330px;
