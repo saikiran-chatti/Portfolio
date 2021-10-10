@@ -13,7 +13,7 @@ const Intro = () => {
                     I’m looking for new opportunities <br /> I am currently working as a <span className="bold blue">WebDeveloper</span></p>
                 <div>
                     <p className="poppins-normal-15 color-grey">Email</p>
-                    <p className="poppins-normal-15 color-grey bold blue">jayanthsaikiran@gmail.com</p>
+                    <a href="mailto:jayanthsaikiran@gmail.com"><p className="poppins-normal-15 color-grey bold blue">jayanthsaikiran@gmail.com</p></a>
                 </div>
             </div>
         </div>
