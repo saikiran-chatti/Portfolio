@@ -18,7 +18,7 @@ const Home = () => {
         document.addEventListener("contextmenu", handleContextMenu);
 
         document.addEventListener('keydown', function (e) {
-            console.log(e.key);
+            // console.log(e.key);
             if (e.key === 123) {
                 e.preventDefault();
                 return false;
