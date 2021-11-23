@@ -1,9 +1,14 @@
 import React from 'react'
 import './Intro.css'
+import RenderEmoji from '../RenderEmoji/RenderEmoji'
+
 const Intro = () => {
     return (
         <div className="intro">
-            <span className="poppins-bold-48 jayanth color-blackShade">👋 Hi, I’m Jayanth</span>
+            <div className="intro_heading">
+                <RenderEmoji htmlEntity="&#128075" />
+                <span className="poppins-bold-48 jayanth color-blackShade">&nbsp;Hi, I’m Jayanth</span>
+            </div>
             <span className="poppins-normal-15 intro_para">I’m a <span className="bold">Web Developer</span> with a passion for participate
                 in every stage of digital product, from <span className="bold">discovery</span> to delivery.
                 Helping to focus the business goals on users.</span>
