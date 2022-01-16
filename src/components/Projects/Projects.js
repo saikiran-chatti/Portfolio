@@ -11,7 +11,7 @@ const Projects = () => {
             <div className="projects">
                 {/* <a href="https://www.linkedin.com/feed/update/urn:li:activity:6840869073828630528/"
                     rel="noreferrer" target="_blank"> */}
-                <div className="projectCard" onClick={() => window.open("https://www.linkedin.com/feed/update/urn:li:activity:6840869073828630528/", "_blank")}>
+                <div className="projectCard" onClick={() => window.open("https://nowires.netlify.app/", "_blank")}>
                     <p className="color-blue projectTitle">No Wires</p>
                     <p className=" color-black projectDesc">Access phone files from laptop</p>
                     <p className="color-grey projectDomain">Web & Android app</p>
