@@ -11,7 +11,7 @@ const Projects = () => {
             <div className="projects">
                 {/* <a href="https://www.linkedin.com/feed/update/urn:li:activity:6840869073828630528/"
                     rel="noreferrer" target="_blank"> */}
-                <a href="https://nowires.netlify.app/" target="_blank">
+                <a href="https://nowires.netlify.app/" target="_blank" rel="noreferrer" >
                     <div className="projectCard">
                         <p className="color-blue projectTitle">No Wires</p>
                         <p className=" color-black projectDesc">Access phone files from laptop</p>
@@ -25,7 +25,7 @@ const Projects = () => {
                 {/* </a> */}
                 {/* <a href="https://play.google.com/store/apps/details?id=com.gfeed.sudhaseshu.gitamfeed"
                     rel="noreferrer" target="_blank"> */}
-                <a href="https://play.google.com/store/apps/details?id=com.gfeed.sudhaseshu.gitamfeed" target="_blank">
+                <a href="https://play.google.com/store/apps/details?id=com.gfeed.sudhaseshu.gitamfeed" target="_blank" rel="noreferrer">
                     <div className="projectCard">
                         <p className="color-blue projectTitle">Gitam Feed</p>
                         <p className="color-black projectDesc">College feed and community</p>
