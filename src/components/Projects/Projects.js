@@ -11,26 +11,30 @@ const Projects = () => {
             <div className="projects">
                 {/* <a href="https://www.linkedin.com/feed/update/urn:li:activity:6840869073828630528/"
                     rel="noreferrer" target="_blank"> */}
-                <div className="projectCard" onClick={() => window.open("https://nowires.netlify.app/", "_blank")}>
-                    <p className="color-blue projectTitle">No Wires</p>
-                    <p className=" color-black projectDesc">Access phone files from laptop</p>
-                    <p className="color-grey projectDomain">Web & Android app</p>
-                    <div className="domainIcons">
-                        <img src={ReactIcon} alt="react" width="28px" height="28px" />
-                        <img src={AndroidIcon} alt="android" width="28px" height="28px" />
+                <a href="https://nowires.netlify.app/" target="_blank">
+                    <div className="projectCard">
+                        <p className="color-blue projectTitle">No Wires</p>
+                        <p className=" color-black projectDesc">Access phone files from laptop</p>
+                        <p className="color-grey projectDomain">Web & Android app</p>
+                        <div className="domainIcons">
+                            <img src={ReactIcon} alt="react" width="28px" height="28px" />
+                            <img src={AndroidIcon} alt="android" width="28px" height="28px" />
+                        </div>
                     </div>
-                </div>
+                </a>
                 {/* </a> */}
                 {/* <a href="https://play.google.com/store/apps/details?id=com.gfeed.sudhaseshu.gitamfeed"
                     rel="noreferrer" target="_blank"> */}
-                <div className="projectCard" onClick={() => window.open("https://play.google.com/store/apps/details?id=com.gfeed.sudhaseshu.gitamfeed", "_blank")}>
-                    <p className="color-blue projectTitle">Gitam Feed</p>
-                    <p className="color-black projectDesc">College feed and community</p>
-                    <p className="color-grey projectDomain">Android Application</p>
-                    <div className="domainIcons">
-                        <img src={AndroidIcon} alt="android" width="28px" height="28px" />
+                <a href="https://play.google.com/store/apps/details?id=com.gfeed.sudhaseshu.gitamfeed" target="_blank">
+                    <div className="projectCard">
+                        <p className="color-blue projectTitle">Gitam Feed</p>
+                        <p className="color-black projectDesc">College feed and community</p>
+                        <p className="color-grey projectDomain">Android Application</p>
+                        <div className="domainIcons">
+                            <img src={AndroidIcon} alt="android" width="28px" height="28px" />
+                        </div>
                     </div>
-                </div>
+                </a>
                 {/* </a> */}
                 <div className="projectCard relativeCard">
                     <div className="comingsoon poppins-normal-12 color-white">
